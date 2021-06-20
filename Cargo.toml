@@ -1,0 +1,16 @@
+[package]
+name = "wu"
+version = "0.1.0"
+authors = ["William McPherson <willmcpherson2@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+wgpu = { version = "0.8.1", features = ["webgl"] }
+winit = { version = "0.25.0", features = ["web-sys"] }
+web-sys = "0.3.50"
+pollster = "0.2.4"
+wasm-bindgen-futures = "0.4.24"
+log = "0.4.14"
+env_logger = "0.8.3"
+console_log = "0.2.0"
+console_error_panic_hook = "0.1.6"
