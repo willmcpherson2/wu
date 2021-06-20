@@ -5,7 +5,7 @@ authors = ["William McPherson <willmcpherson2@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-wgpu = { version = "0.8.1", features = ["webgl"] }
+wgpu = { version = "0.9.0", features = ["webgl"] }
 winit = { version = "0.25.0", features = ["web-sys"] }
 web-sys = "0.3.50"
 futures = "0.3.15"
@@ -16,3 +16,4 @@ console_log = "0.2.0"
 console_error_panic_hook = "0.1.6"
 image = "0.23.14"
 cgmath = "0.18.0"
+bytemuck = { version = "1.7.0", features = ["derive"] }
